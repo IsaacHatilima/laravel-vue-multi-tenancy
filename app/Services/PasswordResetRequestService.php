@@ -11,7 +11,8 @@ class PasswordResetRequestService
      */
     public function makeRequest($email): string
     {
-        defer(fn() => Password::sendResetLink($email));
+        defer(fn () => Password::sendResetLink($email));
+
         return Password::RESET_LINK_SENT;
     }
 }

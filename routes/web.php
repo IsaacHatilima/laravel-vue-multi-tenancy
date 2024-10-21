@@ -4,6 +4,10 @@ use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
+foreach (config('tenancy.central_domains') as $domain) {
+    // Routes available to root domain(s) listed in central_domains config/tenancy.php
+    Route::domain($domain)->group(function () {});
+}
 
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');

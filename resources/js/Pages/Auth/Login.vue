@@ -88,7 +88,7 @@ const submit = () => {
                         :href="route('register')"
                         class="underline text-sm text-gray-600 hover:text-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                     >
-                        Need an account?
+                        Need a group?
                     </Link>
                 </div>
 
@@ -99,10 +99,5 @@ const submit = () => {
                 </div>
             </form>
         </CardContent>
-        <CardFooter>
-            <Button class="w-full bg-white border-2 border-slate-700 text-black">
-                Log in with Google
-            </Button>
-        </CardFooter>
     </GuestLayout>
 </template>
