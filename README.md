@@ -7,6 +7,10 @@ This is a Laravel with Vue.js multi tenancy starter application.
 - [Vue Js](https://vuejs.org/).
 - [Tenancy for Laravel](https://tenancyforlaravel.com/).
 
+## Status
+
+- In development
+
 ## Why?
 
 Having a stater project with the essential basics can speed up development.This application is created with the laravel
